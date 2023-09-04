@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript'
+// import typescript from '@rollup/plugin-typescript'
 import pkg from './package.json'
 import json from '@rollup/plugin-json'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
@@ -9,7 +9,7 @@ import { babel } from '@rollup/plugin-babel'
 const formatName = 'achieve'
 
 export default {
-    input: './src/index.ts',
+    input: './src/index.js',
     output: [
         {
             file: pkg.main,
@@ -29,7 +29,7 @@ export default {
         json(),
         commonjs({ include: /node_modules/ }),
         nodeResolve({ preferBuitins: true, main: true, brower: true }),
-        typescript(),
+        // typescript(),
         eslint(),
         babel({ exclude: 'node_modules/**' })
     ]

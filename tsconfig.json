@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "outDir": "./dist",
-        "declaration": true  
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules", "**/*.spec.js"]
-}
