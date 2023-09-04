@@ -1,6 +1,6 @@
 {
   "name": "@zxn2889/achieve-proxy",
-  "version": "1.1.0-0",
+  "version": "1.1.0",
   "description": "Brief implementation of Vue responsive principle.",
   "main": "lib/bundle.cjs.js",
   "jsnext:main": "lib/bundle.esm.js",
